@@ -1,4 +1,4 @@
-package pl.confitura.android.devtoolsdemo.activity;
+package pl.confitura.android.devtoolsdemo.component;
 
 import pl.confitura.android.devtoolsdemo.R;
 import android.content.Context;
