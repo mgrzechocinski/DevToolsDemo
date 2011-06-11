@@ -2,7 +2,6 @@ package pl.confitura.android.devtoolsdemo.adapter;
 
 import pl.confitura.android.devtoolsdemo.R;
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,11 +38,11 @@ public class CustomListAdapter extends BaseAdapter {
 		}
 
 		String country = COUNTRIES[position];
-		int i = 0;
-		while (i < 100) {
-			Log.d(LOG_TAG, country);
-			i++;
-		}
+		// int i = 0;
+		// while (i < 100) {
+		// Log.d(LOG_TAG, country);
+		// i++;
+		// }
 
 		TextView textView = (TextView) convertView.findViewById(R.id.listItem);
 		textView.setText(country);

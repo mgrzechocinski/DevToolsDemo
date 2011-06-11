@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DevToolsDemo</string>
-    <string name="label_name">Numer telefonu:</string>
-    <string name="hint_name">Podaj numer telefonu</string>
-    <string name="btn_call">Zadzwoń</string>
+    <string name="label_name">Imię:</string>
+    <string name="hint_name">Podaj imię</string>
 </resources>
