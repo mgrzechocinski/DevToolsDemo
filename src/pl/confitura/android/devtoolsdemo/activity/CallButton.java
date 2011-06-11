@@ -15,8 +15,7 @@ import android.widget.Button;
  */
 public class CallButton extends Button implements View.OnClickListener {
 
-	private static final int GREEN = 0xFF04B404;
-	private static final String HELPLINE_URI = "123456789";
+	private static final String HELPLINE_URI = "tel:+48800102102";
 
 	public CallButton(Context context, AttributeSet attrs) {
 		super(context, attrs);
