@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:id="@+id/content"
-              android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:gravity="center"
-        >
-    <EditText
-            android:id="@+id/hello"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Hello World, SaveGotham"
-            />
+	android:id="@+id/content" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical">
+
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:layout_weight="1">
+		<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/label_name"></TextView>
+		<EditText android:layout_width="wrap_content"
+			android:layout_weight="1" android:inputType="textPersonName"
+			android:id="@+id/editText1" android:layout_height="wrap_content" android:hint="@string/hint_name"></EditText>
+	</LinearLayout>
+	<include layout="@layout/callbutton" android:id="@+id/callButton1_ref"  android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
 </LinearLayout>
 

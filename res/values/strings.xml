@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Batgirl</string>
-    <string name="pow">POW!!</string>
-    <string name="blammo">BLAMMO!!!</string>
-    <integer name="max_punches">3</integer>
-    <string name="app_name2">TODO</string>
+    <string name="app_name">DevToolsDemo</string>
+    <string name="label_name">Number:</string>
+    <string name="hint_name">Put your number</string>
+    <string name="btn_call">Call</string>
 </resources>
