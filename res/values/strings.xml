@@ -4,4 +4,19 @@
     <string name="label_name">Name:</string>
     <string name="hint_name">Put your name</string>
     <string name="hello">Witaj</string>
+    
+    <!--
+        ACRA crash reports
+    -->
+    <string name="crash_notif_ticker_text">Aplikacja DevToolsDemo zgłosiła błąd. Klknij, aby wysłać raport...</string>
+    <string name="crash_notif_title">W DevToolsDemo wystąpił błąd</string>
+    <string name="crash_notif_text">Kliknij, aby zgłosić raport o błędzie</string>
+
+    <string name="crash_dialog_title">DevToolsDemo - błąd</string>
+    <string name="crash_dialog_text">Wystąpił nieoczekiwany błąd, który zmusił aplikację do zamknięcia.
+        Pomóż nam go rozwiązać wysyłając raport o błędzie. Wszystko co musisz zrobić to kliknąć \'Ok\'.
+    </string>
+    <string name="crash_dialog_comment_prompt">Dodatkowo, możesz opisać czynności, które spowodowały błąd:</string>
+    <string name="crash_dialog_ok_toast">Raport został wysłany. Dziękujemy!</string>
+    
 </resources>

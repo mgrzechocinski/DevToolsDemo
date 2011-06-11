@@ -4,7 +4,6 @@ import pl.confitura.android.devtoolsdemo.MyClass;
 import pl.confitura.android.devtoolsdemo.R;
 import roboguice.activity.RoboActivity;
 import roboguice.inject.InjectView;
-import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -28,11 +27,7 @@ public class DevToolsDemoActivity extends RoboActivity {
 		buttonOk.setOnClickListener(new OnClickListener() {
 
 			public void onClick(View v) {
-
-				String msg = "MyClass: " + myClass.toString();
-
-				new AlertDialog.Builder(DevToolsDemoActivity.this)
-						.setMessage(msg).setCancelable(true).show();
+				throw new RuntimeException("ACRA should catch it!");
 			}
 		});
 	}
